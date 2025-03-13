@@ -6,12 +6,6 @@
 #include <RH_ASK.h>
 #include <RHCRC.h>
 
-#ifndef __AVR_ATmega4809__
-  #pragma message "__AVR_ATmega4809__ is NOT defined"
-#else
-  #pragma message "__AVR_ATmega4809__ is defined"
-#endif
-
 #ifndef __SAMD51__
 
 #if (RH_PLATFORM == RH_PLATFORM_STM32)

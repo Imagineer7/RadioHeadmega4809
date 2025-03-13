@@ -1559,12 +1559,6 @@ these examples and explanations and extend them to suit your needs.
 #define RH_VERSION_MAJOR 1
 #define RH_VERSION_MINOR 143
 
-#ifndef __AVR_ATmega4809__
-  #pragma message "__AVR_ATmega4809__ is NOT defined"
-#else
-  #pragma message "__AVR_ATmega4809__ is defined"
-#endif
-
 // Symbolic names for currently supported platform types
 #define RH_PLATFORM_ARDUINO          1
 #define RH_PLATFORM_MSP430           2
